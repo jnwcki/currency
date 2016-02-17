@@ -36,3 +36,4 @@ class MoneyConTest(unittest.TestCase):
 
     def test_list_of_usd_convert_to_eur(self):
         self.assertEqual(Money().list_usd_to_eur([1, 2, 100]), [.9, 1.80, 90])
+
